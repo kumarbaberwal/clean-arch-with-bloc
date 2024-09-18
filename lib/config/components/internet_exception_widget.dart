@@ -34,13 +34,14 @@ class InternetExceptionWidget extends StatelessWidget {
           ),
         ),
         ElevatedButton(
-            onPressed: onPress,
-            child: Center(
-              child: Text(
-                'RETRY',
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-            ))
+          onPressed: onPress,
+          child: Center(
+            child: Text(
+              'RETRY',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ),
+        )
       ],
     );
   }
